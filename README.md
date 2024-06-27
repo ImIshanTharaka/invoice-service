@@ -21,5 +21,5 @@ This application consists of 3 microservices.
 ## How to run the application
 * Enable SMTP in Gmail settings for the email
 * Update the Mysql database url, username, password and gmail smtp username, password in the application properties files
-* Run the 3 microservices parallelly and hit a request with the excel file to the excel-to-databse microservice 
+* Run the 3 microservices parallelly and hit a post request (body -> form-data, key = "file" & value = test excel file.xlsx) with the excel file to the excel-to-database microservice 
 
