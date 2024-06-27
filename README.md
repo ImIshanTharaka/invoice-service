@@ -7,7 +7,7 @@ This application consists of 3 microservices.
 2. pdf-creation - getting data from the MySQL databse and generating a pdf invoice from that data according to a given template, then saving the generated invoice in the database
 3. email-service - getting the customer email address, and the invoice by calling the database and then sending an email to the customer attaching the invoice
 
-## What I have leanred
+## What I have learned
 * Extracting data from a excel file and save them in a MySQL database
 * Use thymeleaf and html2pdf dependencies to create the html file and convert the html to pdf
 * Use Gmail SMTP server to send emails through a Gmail account
