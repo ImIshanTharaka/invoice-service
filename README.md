@@ -1,5 +1,5 @@
 # invoice-service
-An application for retrieving data from an excel file, save them in a database and generating a pdf invoice from that data and then send it to the relevant customer.
+An application for retrieving data from an excel file, save them in a database and generating a pdf invoice including that data and then send it to the relevant customer.
 
 ## Specifications
 This application consists of 3 microservices.
